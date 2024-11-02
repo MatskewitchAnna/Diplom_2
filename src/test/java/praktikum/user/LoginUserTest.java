@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.user;
+package praktikum.user;
 
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;

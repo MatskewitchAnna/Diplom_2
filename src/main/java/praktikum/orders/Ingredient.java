@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.order;
+package praktikum.orders;
 
 public class Ingredient {
 

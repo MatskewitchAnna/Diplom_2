@@ -1,6 +1,6 @@
 package service;
 
-import ru.yandex.praktikum.order.Ingredient;
+import praktikum.orders.Ingredient;
 
 import java.util.ArrayList;
 
@@ -20,6 +20,7 @@ public class IngredientsResponse {
     public boolean isSuccess() {
         return success;
     }
+
     public ArrayList<Ingredient> getData() {
         return data;
     }

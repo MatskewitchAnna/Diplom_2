@@ -1,12 +1,12 @@
-package ru.yandex.praktikum.user;
+package praktikum.user;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import service.AuthResponse;
 import service.Service;
+
 import static io.restassured.RestAssured.given;
 import static java.net.HttpURLConnection.*;
-
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;

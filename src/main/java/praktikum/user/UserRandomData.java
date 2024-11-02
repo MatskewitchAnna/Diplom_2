@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.user;
+package praktikum.user;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

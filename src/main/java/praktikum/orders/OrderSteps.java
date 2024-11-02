@@ -1,4 +1,4 @@
-package ru.yandex.praktikum.order;
+package praktikum.orders;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;

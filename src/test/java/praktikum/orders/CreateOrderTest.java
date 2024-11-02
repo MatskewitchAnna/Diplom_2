@@ -1,13 +1,15 @@
-package ru.yandex.praktikum.order;
+package praktikum.orders;
 
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
-import org.junit.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import praktikum.user.UserData;
+import praktikum.user.UserSteps;
 import service.IngredientsResponse;
 import service.Service;
-import ru.yandex.praktikum.user.UserSteps;
-import ru.yandex.praktikum.user.UserData;
 
 import java.util.ArrayList;
 import java.util.List;

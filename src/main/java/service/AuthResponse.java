@@ -1,6 +1,6 @@
 package service;
 
-import ru.yandex.praktikum.user.User;
+import praktikum.user.User;
 
 public class AuthResponse {
 

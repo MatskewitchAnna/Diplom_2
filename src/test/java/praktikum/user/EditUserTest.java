@@ -1,15 +1,16 @@
-package ru.yandex.praktikum.user;
+package praktikum.user;
 
-import service.Service;
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.Response;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import service.Service;
 
 import static java.net.HttpURLConnection.HTTP_UNAUTHORIZED;
-import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.is;
 
 public class EditUserTest {
 
